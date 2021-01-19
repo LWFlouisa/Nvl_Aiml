@@ -18,9 +18,4 @@
     <pattern>For black and white, is this yellow, blue, or red?</pattern>
     <template>Predicting next exact color.<system>ruby predict.rb</system></template>
   </category>
-
-  <category>
-    <pattern>For black and white, what color for next cutscene?</pattern>
-    <template>Predicting next cutscene color.<system>ruby nextcolor.rb</system></template>
-  </category>
 </aiml>

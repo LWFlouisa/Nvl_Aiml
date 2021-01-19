@@ -1,7 +1,7 @@
 <aiml>
   <category>
     <pattern>Estimate the extra matter in a digest.</pattern>
-    <template>Lets estimate backmatter.<system>ruby backmatter.rb</system></template>
+    <template>Lets estimate backmatter.<system>ruby digest.rb</system></template>
   </category>
   
   <category>

@@ -1,17 +1,17 @@
 <aiml>
   <category>
     <pattern>Estimate the extra matter in a digest.</pattern>
-    <template>Lets estimate backmatter.</template>
+    <template>Lets estimate backmatter.<system>ruby backmatter.rb</system></template>
   </category>
   
   <category>
     <pattern>Caculate the digest dimensions.</pattern>
-    <template>Calculating digest dimensions.</template>
+    <template>Calculating digest dimensions.<system>ruby dimensions.rb</system></template>
   </category>
 
   <category>
     <pattern>Find the equivalent length between novel to poem.</pattern>
-    <template>Finding equivalent length.</template>
+    <template>Finding equivalent length.<system>ruby length.rb</system></template>
   </category>
 
   <category>

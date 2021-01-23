@@ -6,13 +6,13 @@ print "Total word count >> "; word_count = gets.chomp.strip.to_i # ex. 54,000 wo
 line_count = 192
 
 # determine line increase rate.
-percentage_increase = 0.65
+percentage_increase = 0.62962963
 
 # multiple line count to percent increase.
-word_reduction_rate = line_count / percentage_increase + line_count / 100
+word_reduction_rate = percentage_increase * word_count
 
 # divide new word count with new line count
-count_for_poem = word_count / word_reduction_rate
+count_for_poem = word_reduction_rate.to_i
 
 # output the result for ideal word count of poem for same length as novel.
 puts "Your ideal word count should be: #{count_for_poem}"
